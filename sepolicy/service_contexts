@@ -1,2 +1,4 @@
 goodix.fp                        u:object_r:gx_fpd_service:s0
 persist.sys.fp.sensor            u:object_r:fp_service:s0
+# Light
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_santoni                           u:object_r:hal_light_default_exec:s0

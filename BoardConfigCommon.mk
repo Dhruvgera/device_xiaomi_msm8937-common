@@ -161,8 +161,8 @@ DEVICE_MATRIX_FILE   := $(VENDOR_PATH)/compatibility_matrix.xml
 TARGET_PROVIDES_KEYMASTER := true
 TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
+# Malloc
+MALLOC_SVELTE := true
 
 # Lockscreen real time charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
