@@ -285,6 +285,11 @@ PRODUCT_PACKAGES += \
 
 # IPACM Data
 $(call inherit-product, vendor/qcom/opensource/data-ipa-cfg-mgr/ipacm_vendor_product.mk)
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-vendorcompat \
+    libprotobuf-cpp-lite-vendorcompat
+
 
 # IPv6
 PRODUCT_PACKAGES += \
