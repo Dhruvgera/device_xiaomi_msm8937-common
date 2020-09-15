@@ -4,6 +4,7 @@ EXTRA_VENDOR_LIBRARIES := \
     libandroidicu \
     libaudioclient \
     libaudiomanager \
+    libprocessgroup \
     libaudiopolicy \
     libbinder \
     libbufferhub \
